@@ -11,7 +11,7 @@ public class TuneBook
 
 	public TuneBook(String n)
 	{
-		n = "abc.txt"
+		n = "abc.txt";
 		BufferedReader inputStream = null;
 		try {
 				inputStream = new BufferedReader(new FileReader(n));
@@ -39,7 +39,7 @@ public class TuneBook
 	        }
 
 	}
-	
+
 
 
 }
